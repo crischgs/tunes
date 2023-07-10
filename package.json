@@ -1,4 +1,5 @@
 {
+  "homepage": "https://crischgs.github.io/tunes",
   "name": "tunes",
   "version": "1.0",
   "private": true,
@@ -16,7 +17,9 @@
     "test": "vitest",
     "dev": "vite --open",
     "preview": "vite preview",
-    "coverage": "vitest run --coverage --watch=false"
+    "coverage": "vitest run --coverage --watch=false",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": {
     "production": [
@@ -35,6 +38,7 @@
     "@vitejs/plugin-react-swc": "^3.1.0",
     "@vitest/coverage-c8": "^0.30.1",
     "@vitest/coverage-istanbul": "^0.28.4",
+    "gh-pages": "^5.0.0",
     "jsdom": "^21.1.0",
     "prop-types": "^15.8.1",
     "typescript": "^5.0.4",
