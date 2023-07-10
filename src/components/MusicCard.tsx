@@ -35,7 +35,7 @@ export default function MusicCard(
       {trackName}
       <audio data-testid="audio-component" src={ previewUrl } controls>
         <track kind="captions" />
-        O seu navegador não suporta o elemento
+        your browser don`t support this element`
         {' '}
         <code>audio</code>
         .

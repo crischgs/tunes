@@ -27,12 +27,12 @@ export default function Profile() {
   return (
     <main>
       <section className="profile">
-        <img src={ user.image } alt="Foto de Perfil" data-testid="profile-image" />
+        <img src={ user.image } alt="profile picture" data-testid="profile-image" />
         <h3>{user.name}</h3>
         <p>{user.email}</p>
         <p>{user.description}</p>
         <Link to="/profile/edit">
-          <button>Editar perfil</button>
+          <button>edit profile</button>
         </Link>
       </section>
     </main>

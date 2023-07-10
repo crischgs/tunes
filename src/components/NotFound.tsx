@@ -1,3 +1,3 @@
 export default function NotFound() {
-  return <p className="loading">Página não encontrada.</p>;
+  return <p className="loading">page not found</p>;
 }
