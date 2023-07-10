@@ -1,0 +1,16 @@
+.section {
+  background-color: #151515;
+  border-radius: 15px;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.logo {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}

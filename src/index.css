@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #692107;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+  color: #e74b10;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  background-color: #151515;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+input::placeholder {
+  color: silver;
+}
+
+button {
+  background-color: #151515;
+  color: white;
+  border: 2px solid #e74b10;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 10px 40px;
+}
+
+button:hover {
+  background-color: #e74b10;
+}
+
+button:disabled {
+  border: 2px solid #333;
+  color: #888;
+}
+
+button:disabled:hover {
+  background-color: #151515;
+  cursor: default;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 30vw;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.userName {
+  width: 30vw;
+}
+
+.userName p {
+  text-align: right;
+}
+
+.albumCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #151515;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 20px;
+  width: 200px;
+}
+
+.albumCard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.albumCard a {
+  color: #e74b10;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.albumCard p {
+  margin: 5px;
+}
