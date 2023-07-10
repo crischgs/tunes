@@ -1,0 +1,15 @@
+.profile {
+  align-items: center;
+  background-color: #151515;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.profile img {
+  background-color: #e74b10;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}

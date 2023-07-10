@@ -1,0 +1,20 @@
+.searchForm {
+  align-items: center;
+  background-color: #151515;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 50px;
+}
+
+.search {
+  text-align: center;
+}
+
+.searchCards {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
