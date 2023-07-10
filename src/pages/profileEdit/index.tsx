@@ -61,58 +61,61 @@ export default function ProfileEdit() {
         <form onSubmit={ hdlSubmit } className="edit">
           <img
             src={ image }
-            alt="Foto de Perfil"
+            alt="profile picture"
             width="100px"
           />
           <label>
-            Foto de Perfil
+            avatar
             <input
               type="text"
               name="image"
-              placeholder="Insira uma URL"
+              placeholder="enter a url"
               value={ image }
               onChange={ hdlChange }
               data-testid="edit-input-image"
             />
           </label>
           <label>
-            Nome
+            name
             <input
               type="text"
               name="name"
+              placeholder="your name"
               value={ loginName }
               onChange={ hdlChange }
               data-testid="edit-input-name"
             />
           </label>
           <label>
-            Email
+            email
             <input
               type="email"
               name="email"
+              placeholder="enter your email"
               value={ email }
               onChange={ hdlChange }
               data-testid="edit-input-email"
             />
           </label>
           <label>
-            Descrição
+            about
             <textarea
               name="description"
               id="user-description"
+              placeholder="talk about yourself"
               value={ description }
               onChange={ hdlChange }
               data-testid="edit-input-description"
             />
           </label>
           <p>
-            Todos os campos são obrigatórios.
+            all fields are mandatory
           </p>
           <button
             disabled={ btnDisable }
             data-testid="edit-button-save"
           >
-            Editar perfil
+            save
           </button>
         </form>
       </section>

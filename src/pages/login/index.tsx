@@ -32,12 +32,12 @@ export default function Login() {
     <main>
       <section className="section">
         <h2 className="logo">
-          Trybetunes
+          tunes.
         </h2>
         <form onSubmit={ hdlSubmit } className="login">
           <input
             required
-            placeholder="Como você se chama?"
+            placeholder="what's your name?"
             data-testid="login-name-input"
             value={ login.name }
             onChange={ hdlLogin }
@@ -46,7 +46,7 @@ export default function Login() {
             disabled={ login.name.length < 3 }
             data-testid="login-submit-button"
           >
-            Entrar
+            sign in
           </button>
         </form>
       </section>

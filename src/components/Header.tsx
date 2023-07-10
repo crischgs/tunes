@@ -20,29 +20,28 @@ export default function Header() {
           to="/search"
           data-testid="link-to-search"
         >
-          Buscar
+          search
         </NavLink>
         <NavLink
           to="/favorites"
           data-testid="link-to-favorites"
         >
-          Favoritos
+          favorites
         </NavLink>
         <NavLink
           to="/profile"
           data-testid="link-to-profile"
         >
-          Perfil
+          profile
         </NavLink>
       </div>
       <h2>
-        Trybetunes
+        tunes.
       </h2>
       <div className="userName">
         <p data-testid="header-user-name">
-          { 'Olá, ' }
+          { 'hello, ' }
           { userName }
-          !
         </p>
       </div>
     </header>

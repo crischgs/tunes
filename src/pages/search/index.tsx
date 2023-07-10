@@ -20,7 +20,7 @@ export default function Search() {
     setLoading(true);
     const result = await searchAlbumsAPI(artist);
     if (result) {
-      setSearchMessage(`Resultado de álbuns de: ${artist}`);
+      setSearchMessage(`showing albums of ${artist}`);
       setSearch(result);
     }
     setArtist('');
@@ -40,21 +40,21 @@ export default function Search() {
             type="text"
             value={ artist }
             onChange={ hdlChange }
-            placeholder="Que artista você quer ouvir?"
+            placeholder="search for an artist or band"
             data-testid="search-artist-input"
           />
           <button
             disabled={ artist.length < 2 }
             data-testid="search-artist-button"
           >
-            Procurar
+            search
           </button>
         </form>
       </section>
       <section className="search">
         {search.length === 0
           ? (
-            <p>Nenhum álbum foi encontrado</p>
+            <p>no album was found</p>
           )
           : (
             <div>
