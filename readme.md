@@ -12,8 +12,6 @@ is a project that was developed during my training in web development at trybe, 
 <br />
 </details>
 
-<br />
-
 <details>
 <summary markdown="span"><strong>português</strong></summary>
 tunes. é uma aplicação que permite pesquisar e listar álbuns e músicas de bandas e artistas, além de ser possível executar o preview e favoritar suas músicas preferidas<br />
